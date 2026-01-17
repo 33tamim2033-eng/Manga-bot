@@ -39,7 +39,7 @@ def keep_alive():
 
 # 🛑 [تنبيه هام] قم بتغيير هذه البيانات ببياناتك الخاصة
 import os
-TOKEN = os.getenv("TELEGRAM_TOKEN")"           # 👈 توكن البوت
+TOKEN = os.getenv("TELEGRAM_TOKEN")           # 👈 توكن البوت
 OWNER_ID = 7718738590                      # 👈 آيدي المالك (أرقام فقط)
 OWNER_USERNAME = "drvirus_6"          # 👈 اسم المالك (بدون @)
 CHANNEL_LINK = "https://t.me/MangaKingdom_AR" # 👈 رابط القناة العام
