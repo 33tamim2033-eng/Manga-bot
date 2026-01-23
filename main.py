@@ -905,7 +905,7 @@ async def show_manga_panel(update: Update, context: ContextTypes.DEFAULT_TYPE, m
         fav_cb = f"fav_{manga_id}_rem" if is_fav else f"fav_{manga_id}_add"
         keyboard.append([InlineKeyboardButton(fav_icon, callback_data=fav_cb)])
         
-    keyboard.append([InlineKeyboardButton("↙️ العودة الى الق��ئمة", callback_data="back_start")])
+    keyboard.append([InlineKeyboardButton("↙️ العودة الى القائمة", callback_data="back_start")])
     
     markup = InlineKeyboardMarkup(keyboard)
     
